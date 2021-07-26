@@ -1,0 +1,15 @@
+body{
+    background-color: aqua;
+    text-align: center;
+    padding: 70px;
+}
+#input-text{
+    height: 25px;
+    width: 280px;
+    border-radius: 20%;
+    background-color: transparent;
+    outline: none;
+}
+#search{
+    height: 30px;
+}
