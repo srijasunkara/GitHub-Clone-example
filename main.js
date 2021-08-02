@@ -4,8 +4,10 @@ const button = document.getElementById('search')
 console.log(button);
 button.addEventListener('click',()=>{
     const username = textBox.value
+    //Step-1
     const xhr = new XMLHttpRequest();
     const url = `https://api.github.com/users/${username}`
+    //Step-2
     xhr.open('GET', url)
     xhr.onreadystatechange= () =>{
         if(xhr.readyState==4 && xhr.status==200)
